@@ -94,30 +94,31 @@
     position: relative;
     }
 
+    /* changes */
     .text-box {
     width: 100%;
     color: #ffffff;
-    margin: 10% auto auto auto;
+    margin: 0% auto auto auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     }
 
+    /* changes */
     .text-box h2 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     }
 
+    /* changes */
     .text-box p {
-    font-size: 20px;
-    color: #808dad;
-    margin-top: 50px;
+    font-size: 18px;
+    margin-top: 25px;
     }
 
     /* changes */
     .text-box div {
         margin-top: 100%;
-        padding: 4%;
-        /* opacity: 0.8; */
+        padding: 5%;
         width: 100%;
         text-align: center;
     }
@@ -132,35 +133,6 @@
     display: none;
     }
 
-    .right-box ul li {
-    list-style: none;
-    display: block;
-    padding: 4px;
-    }
-
-    .right-box ul li a {
-    text-decoration: none;
-    font-size: 20px;
-    color: #808dad;
-    }
-    
-    .hero-btn {
-    display: inline-block;
-    text-decoration: none;
-    color: #eb4a4a;
-    background: #ffffff;
-    border: 4px;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 12px 34px;
-    position: relative;
-    cursor: pointer;
-    }
-
-    .hero-btn:hover {
-    background-color: aqua;
-    }
-
 
 
     /* Starting of About */
@@ -172,28 +144,33 @@
     color: #808dad;
     }
 
+    /* changes */
     .about_container {
-        display: none;
-    /* padding-top: 146px;
-    padding-bottom: 146px;
+    padding-top: 10%;
     display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
     margin: auto;
-    justify-content: space-between;
-    align-content: center;
-    width: 70%;
-    position: relative; */
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    }
+
+    .about_content{
+        /* width: 80%; */
+        padding: 5%;
     }
 
     .about_content h2 {
-    font-size: 40px;
+    font-size: 30px; 
     font-weight: bold;
     color: #eb4a4a;
-    margin-bottom: 50px;
+    margin: 30px 0;
     }
 
     .about_content p {
-    width: 674px;
-    font-size: 20px;
+    width: 100%;
+    font-size: 18px;
     }
 
     .about_social {
