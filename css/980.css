@@ -176,21 +176,22 @@
     font-size: 18px;
     }
 
+    /* changed */
     .about_social {
-    width: 50%;
+    width: 75%;
     margin: 10% auto;
     display: flex;
     justify-content: space-between;
     }
 
     .about_social img {
-    width: 40px;
-    height: 40px;
+    width: 100%;
+    height: auto;
     }
 
     .a_img {
-    width: 430px;
-    height: 544px;
+    width: 287px;
+    height: 363px;
     position: relative;
     }
 
