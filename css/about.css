@@ -1,0 +1,56 @@
+.about-header {
+    min-height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.about-row{
+    border-top: none;
+}
+
+.about-section{
+    margin-top: 146px;
+}
+
+
+.about-section .row .col-md-6 .pray{
+    height: 80vh;
+    
+}
+
+.about-section .row .col-md-6 .pray img{
+    opacity: 0.5;
+    width: 80%;
+    height: 80vh;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.about-section .row .about-content{
+    position: relative;
+}
+
+.about-section .row .about-content  .panel{
+    position: absolute;
+    top: 3vmin;
+    left: -12vmin;
+    background: #171F38;
+    border-radius: 4px;
+    text-align: left;
+    padding: 8vmin 3vmin 8vmin 6vmin;
+    z-index: 1;
+}
+
+
+.numbers .rect{
+    position: relative;
+    background: #171F38;
+    height: 10rem;
+    width: 12rem;
+    padding-top: 3.5vmin;
+    margin: 50px;
+    border-radius: 4px;
+}
+
