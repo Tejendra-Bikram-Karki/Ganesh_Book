@@ -119,13 +119,14 @@
     /* changes */
     .text-box div {
         margin-top: 100%;
-        padding: 5%;
+        padding: 5% 5% 15% 5%;
         width: 100%;
         text-align: center;
     }
 
     .left-box{
         background-color: rgba(14, 22, 48, 0.7);
+        padding: 20%;
         /* opacity: 0.5; */
     }
 
@@ -229,50 +230,48 @@
     /* Publications */
 
     .publication {
-        display: none;
-    width: 70%;
-    margin: auto;
-    text-align: center;
-    padding: 146px 0 146px 0;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 0 0 146px 0;
     }
     .publication h2 {
-    font-size: 40px;
-    font-weight: bold;
-    color: #eb4a4a;
+        font-size: 30px;
+        margin-top: 20%;
     }
     .row-publications {
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
     }
 
     .publication-col {
-    flex-basis: 30%;
-    display: flex;
-    justify-items: center;
-    flex-direction: column;
-    align-items: center;
+        flex-basis: 30%;
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     .publication_icons {
-    width: 120px;
-    height: 120px;
-    background-color: rgba(128, 141, 173, 0.5);
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+        width: 120px;
+        height: 120px;
+        background-color: rgba(128, 141, 173, 0.5);
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .publication_icons img {
-    width: 80px;
-    height: 80px;
+        width: 80px;
+        height: 80px;
     }
 
     .publication-col h4 {
-    font-size: 38px;
-    font-weight: 500;
-    color: #ffffff;
-    margin: 40px 0 40px 0;
+        font-size: 38px;
+        font-weight: 500;
+        color: #ffffff;
+        margin: 40px 0 40px 0;
     }
 
 
