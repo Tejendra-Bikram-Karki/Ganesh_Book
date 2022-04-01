@@ -1,23 +1,23 @@
-//Navigation Menu
-function myFunction() {
+// //Navigation Menu
+// function myFunction() {
 
-  var x = document.getElementsByClassName("nav-item");
-  if(x.style.display="block"){
-    x.style.display="none";
-  } 
-  else
-  {
-    x.style.display="none";
-  }
+//   var x = document.getElementsByClassName("nav-item");
+//   if(x.style.display="block"){
+//     x.style.display="none";
+//   } 
+//   else
+//   {
+//     x.style.display="none";
+//   }
 
-  // var x = document.getElementById("navbar");
-  // if (x.className === "nav-links") {
-  //   x.className += " responsive";
-  // }
-  // else {
-  //   x.className = "nav-links";
-  // }
-}
+//   // var x = document.getElementById("navbar");
+//   // if (x.className === "nav-links") {
+//   //   x.className += " responsive";
+//   // }
+//   // else {
+//   //   x.className = "nav-links";
+//   // }
+// }
 
 
 

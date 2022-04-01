@@ -234,7 +234,7 @@
         width: 100%;
         margin: auto;
         text-align: center;
-        padding: 20% 5% 20% 5%;
+        padding: 20% 5% 0% 5%;
     }
 
     .publication h2 {
@@ -286,24 +286,20 @@
 
     /* Slider */
 
-    .books{
-        display: none;
-    }
     .header-text {
     width: 70%;
     margin: auto;
     text-align: center;
-    padding: 146px 0 146px 0;
+    padding: 20% 5% 15% 5%;
     }
 
     .header-text h2{
-    font-size: 40px;
-    font-weight: bold;
-    color: #eb4a4a;
+        font-size: 30px;
+        margin-bottom: 25%;
     }
     #wrapper {
     width: 100%;
-    max-width: 1168px;
+    /* max-width: 1168px; */
     margin: auto;
     margin-top: 5%;
     position: relative;
@@ -356,7 +352,7 @@
 
     .item {
     width: 280px;
-    height: 320px;
+    height: 280px;
     background: green;
     }
 
