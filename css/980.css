@@ -1,4 +1,4 @@
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 450px) {
 
     * {
     margin: 0;
@@ -113,6 +113,7 @@
     .text-box p {
     font-size: 18px;
     margin-top: 25px;
+    text-align: justify;
     }
 
     /* changes */
@@ -174,25 +175,31 @@
     .about_content p {
     width: 100%;
     font-size: 18px;
+    text-align: justify;
     }
 
     /* changed */
     .about_social {
-    width: 75%;
+    width: 90%;
     margin: 10% auto;
     display: flex;
     justify-content: space-between;
     }
 
+    /* changed */
     .about_social img {
-    width: 100%;
+    width: 17%;
     height: auto;
     }
 
+    /* changed */
     .a_img {
     width: 287px;
     height: 363px;
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
     }
 
     .a_img img {
@@ -201,11 +208,12 @@
     }
 
     .play_btn {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    margin-left: -50px;
-    margin-bottom: -20px;
+        height: 30%;
+        position: absolute;
+        left: 45%;
+        bottom: -7%;
+        margin-left: -50px;
+        margin-bottom: -20px;
     }
 
     /*End of About*/
@@ -221,6 +229,7 @@
     /* Publications */
 
     .publication {
+        display: none;
     width: 70%;
     margin: auto;
     text-align: center;
@@ -269,6 +278,10 @@
 
 
     /* Slider */
+
+    .books{
+        display: none;
+    }
     .header-text {
     width: 70%;
     margin: auto;
@@ -383,6 +396,7 @@
     }
     .blog-section{
     margin-bottom: 146px;
+    display: none;
     }
 
 
@@ -469,6 +483,10 @@
 
     /*Starting of Social Section*/
 
+    .social-profile{
+        display: none;
+    }
+
     .facebook iframe{
     border-radius: 6px 6px 0px 0px;
     }
@@ -481,6 +499,10 @@
 
 
     /*Starting of Get in touch*/
+
+    .get-in-touch{
+        display: none;
+    }
 
     .contact-container {
     padding-top: 146px;
@@ -677,6 +699,7 @@
     height: 306px;
     }
     .section-container-footer{
+        display: none;
     padding-top: 146px;
     }
     .divider{
