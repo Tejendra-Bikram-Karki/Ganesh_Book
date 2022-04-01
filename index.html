@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/980.css">
 
     
 
@@ -33,16 +34,18 @@
             <h2>Ganesh Prasad Lath</h2>
         </div>
         <nav>
-            <div class="nav-links">
+            <div class="nav-links" id="navbar">
                 <!-- <i class="fa fa-times"></i> -->
-                <ul>
-                    <li class="active"><a href="/">Home</a></li>
-                    <li><a href="about.html">About Me</a></li>
-                    <li><a href="#">Books</a></li>
-                    <li><a href="#">Articles</a></li>
-                    <li><a href="#">Blogs</a></li>
-                    <li><a href="#">Browse More</a></li>
-                </ul>
+                    <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <a href="#" class="active nav-item">Home</a>
+                    <a href="about.html" class="nav-item">About Me</a>
+                    <a href="#" class="nav-item">Books</a>
+                    <a href="#" class="nav-item">Articles</a>
+                    <a href="#" class="nav-item">Blogs</a>
+                    <a href="#" class="nav-item">Contact</a>
+                
             </div>
             <!-- <i class="fa fa-bars"></i> -->
         </nav>
