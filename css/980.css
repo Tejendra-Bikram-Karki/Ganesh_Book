@@ -485,17 +485,9 @@
 
 
     /*Starting of Social Section*/
-    
-    /* .social-profile{
-        display: none;
-    } */
-
-    .facebook iframe{
-    border-radius: 6px 6px 0px 0px;
-    }
-
-    .social-section{
-    padding-bottom: 146px;
+   
+    section.social-profile{
+    display: none;
     }
     /*End of Social Section*/
 
@@ -503,30 +495,29 @@
 
     /*Starting of Get in touch*/
 
-    .get-in-touch{
-        display: none;
-    }
-
     .contact-container {
-    padding-top: 146px;
+    padding-top: 15%;
     }
 
     .contact-content {
-    width: 70%;
-    height: 508px;
+    width: 95%;
+    height: auto;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    /* align-items: center; */
     margin: auto;
+    padding: 5%;
     }
 
     .touch {
-    width: 35%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     }
+
     .touch h2{
-    font-size: 40px;
+    font-size: 30px;
+    margin-bottom: 10%;
     font-weight: bold;
 
     }
@@ -538,10 +529,11 @@
     .touch div {
     margin-top: 20px;
     color: #808dad;
-    font-size: 20px;
+    font-size: 18px;
     }
+
     .touch-title{
-    margin-left: 6px;
+    margin-left: 2%;
 
     }
     .touch div .fa {
@@ -550,11 +542,13 @@
     }
 
     .contact-social{
-        padding-top: 60px;
-        width: 30%;
+        padding-top: 10%;
+        width: 80%;
+        margin: auto;
         display: flex;
         justify-content: space-between;
     }
+
     .contact-social img {
     width: 30px;
     height: 30px;
@@ -562,18 +556,19 @@
     }
 
     .contact-form {
-    width: 46%;
-    height: 500px;
+    width: 100%;
+    height: auto;
     background-color: #171F38;
-    padding: 28px 30px;
+    padding: 10%;
     border-radius: 4px;
+    margin-top: 16%;
     }
 
     .input-wrapper .input-data {
     height: 40px;
     width: 100%;
     position: relative;
-    margin-top: 5%;
+    margin-top: 17%;
     }
     .input-wrapper .input-data input {
     height: 100%;
